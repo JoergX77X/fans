@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   padding:20px;
+    border-bottom: 2px solid #C83232;
+  }
+  
+ 
+  .logo img{
+    width:20vw;
+    text-align:left;
+    cursor:pointer;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #4fe5ff;
+    font-size: 1rem;
+    list-style: none;
+    margin-right: 20px;
+  }
+  .list{
+    list-style: none;
+    
+  }
+  @media (min-width: 768px) {
+    .logo {
+      font-size: 2.5rem;
+    }
+  
+    .navigation a {
+      font-size: 1.5rem;
+    }
+  }
