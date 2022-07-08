@@ -15,15 +15,16 @@ const girl = db.find(el => el.pseudo===mygirl)
       <div>
         {!girl && <h1>No data</h1>}
         {girl && (
-            <div>
-          <Modeladvertorial
-            name={girl.pseudo}
-            image={girl.profilepic}
-            age={girl.age}
-            numberofitems={girl.posts.length}
-            key={girl.pseudo}
-          />
-          <Allpostes girl={girl} />
+          <div>
+            <Modeladvertorial
+              name={girl.pseudo}
+              image={girl.profilepic}
+              age={girl.age}
+              numberofitems={girl.posts.length}
+              key={girl.pseudo}
+            />
+          
+            <Allpostes girl={girl} />
           </div>
         )}
       </div>

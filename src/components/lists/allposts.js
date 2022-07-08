@@ -14,6 +14,7 @@ const Allpostes=(props)=>{
         content={girl.content}
         />
        ))}
+    
       </div>
     );
 };
