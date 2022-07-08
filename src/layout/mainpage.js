@@ -5,7 +5,6 @@ import Allgirls from "../components/lists/allgirls";
 //import MiddleElement from "./middleelement";
 import Filters from "./filters";
 
-
 const Mainpage=(props)=>{
 let myDummyBase = [
   {
@@ -67,12 +66,12 @@ let myDummyBase = [
 
     return (
       <div>
-        <Row>
+        <Row className="bg-dark">
           <Col className="bg-light border" xs="12" md="3">
             <Filters />
           </Col>
           <Col className="bg-light border" xs="12" md="6">
-          {props.children}
+            {props.children}
           </Col>
           <Col className="bg-light border" xs="12" md="3">
             <Allgirls items={myDummyBase} />

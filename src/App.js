@@ -19,20 +19,20 @@ let myDummyBase = [
       "https://image.shutterstock.com/z/stock-photo-girl-squats-on-wall-with-a-surfboard-558028459.jpg",
     posts: [
       {
-        title: "testnachricht",
+        title: "testnachricht 1",
         content: "Hier toller Text",
         image:
           "https://image.shutterstock.com/image-photo/pretty-young-slim-woman-on-600w-384107347.jpg",
       },
       {
-        title: "testnachricht",
-        content: "Hier toller Text",
+        title: "testnachricht 2",
+        content: "HWahnsinnstext",
         image:
           "https://image.shutterstock.com/image-photo/pretty-young-slim-woman-on-600w-384107347.jpg",
       },
       {
-        title: "testnachricht",
-        content: "Hier toller Text",
+        title: "testnachricht 3",
+        content: "Irre geiler text",
         image:
           "https://image.shutterstock.com/image-photo/pretty-young-slim-woman-on-600w-384107347.jpg",
       },

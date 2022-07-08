@@ -12,18 +12,17 @@ const Header = () => {
           <img src="/images/deinefans_logo_2.png" alt="Logo" />
         </a>
       </div>
-      <h5>
-        <a href="/models">Models</a>
-       
-      </h5>
-      <h5>
-        
-        <a href="/privacy">Datenschutz</a>
-      </h5>
-      <h5>
-        <a href="/agb">AGB</a>
-       
-      </h5>
+      <div className={classes.navlinks}>
+        <h5>
+          <a href="/models">Models</a>
+        </h5>
+        <h5>
+          <a href="/privacy">Datenschutz</a>
+        </h5>
+        <h5>
+          <a href="/agb">AGB</a>
+        </h5>
+      </div>
     </header>
   );
 };
