@@ -12,7 +12,7 @@ const Modeladvertorial = (props) =>{
           <img src={props.image} alt={modelname} />
         </div>
         <div className={classes.userinfobody}>
-          <div className={classes.tagdblock}>
+          <div className={classes.tag}>
             <span className={classes.tagcolor1}>#HEISSKOCHEN</span>
             <span className={classes.tagcolor2}>#OHNE WASSER</span>
             <span className={classes.tagcolor3}>#UNMÖGLICH</span>
