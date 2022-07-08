@@ -21,7 +21,7 @@ const Modeladvertorial = (props) =>{
 
             <h4>
               {modelname}
-              <small> {props.age} Jahre</small>
+              <small>&nbsp;{props.age} Jahre</small>
             </h4>
 
             <p>
